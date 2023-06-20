@@ -1,5 +1,5 @@
 local function example()
-  return true
+  vim.api.nvim_put({ "hello", "from", "demo" }, "l", true, true)
 end
 
 return {
